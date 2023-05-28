@@ -4,7 +4,8 @@
 En este desafío, deberá procesar datos desde un archivo Json y realizar algunos cálculos para responder un par de preguntas que tiene nuestro equipo de métricas.
 
 
-Puedes descargar el json como archivo en este repositorio
+Puedes descargar el json (proveedores.json) como archivo en este repositorio.
+Ademas se deja un archivo con las clases en C# que contiene el json (clases)
 
 La estructura general del JSON  es:
 
