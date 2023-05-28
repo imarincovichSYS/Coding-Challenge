@@ -1,0 +1,490 @@
+{
+  "proveedores": [
+    {
+      "codigo": "PRV001",
+      "pais": "Estados Unidos",
+      "nombre": "Proveedor A",
+      "direccion": {
+        "estado": "California",
+        "ciudad": "Los Angeles",
+        "calle": "Main St",
+        "numero": "123"
+      },
+      "ordenes": [
+        {
+          "numero_orden": "ORD001",
+          "fecha_creacion": "2023-02-01",
+          "fecha_llegada": "2023-02-10",
+          "transporte": "aereo",
+          "detalle": [
+            {
+              "producto": "Producto A",
+              "cantidad": 5,
+              "precio": 1000
+            },
+            {
+              "producto": "Producto B",
+              "cantidad": 2,
+              "precio": 500
+            },
+            {
+              "producto": "Producto C",
+              "cantidad": 10,
+              "precio": 300
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD002",
+          "fecha_creacion": "2023-04-15",
+          "fecha_llegada": "2023-04-30",
+          "transporte": "maritimo",
+          "detalle": [
+            {
+              "producto": "Producto D",
+              "cantidad": 3,
+              "precio": 800
+            },
+            {
+              "producto": "Producto E",
+              "cantidad": 5,
+              "precio": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "PRV002",
+      "pais": "China",
+      "nombre": "Proveedor B",
+      "direccion": {
+        "estado": "Shanghai",
+        "ciudad": "Shanghai",
+        "calle": "Nanjing Road",
+        "numero": "456"
+      },
+      "ordenes": [
+        {
+          "numero_orden": "ORD003",
+          "fecha_creacion": "2023-05-05",
+          "fecha_llegada": "2023-05-15",
+          "transporte": "terrestre",
+          "detalle": [
+            {
+              "producto": "Producto F",
+              "cantidad": 8,
+              "precio": 600
+            },
+            {
+              "producto": "Producto G",
+              "cantidad": 10,
+              "precio": 200
+            },
+            {
+              "producto": "Producto H",
+              "cantidad": 5,
+              "precio": 400
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD004",
+          "fecha_creacion": "2023-04-20",
+          "fecha_llegada": "2023-05-05",
+          "transporte": "maritimo",
+          "detalle": [
+            {
+              "producto": "Producto I",
+              "cantidad": 4,
+              "precio": 600
+            },
+            {
+              "producto": "Producto J",
+              "cantidad": 2,
+              "precio": 800
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD019",
+          "fecha_creacion": "2023-03-20",
+          "fecha_llegada": "2023-04-05",
+          "transporte": "maritimo",
+          "detalle": [
+            {
+              "producto": "Producto I",
+              "cantidad": 3,
+              "precio": 600
+            },
+            {
+              "producto": "Producto J",
+              "cantidad": 2,
+              "precio": 800
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD020",
+          "fecha_creacion": "2023-04-22",
+          "fecha_llegada": "2023-05-11",
+          "transporte": "maritimo",
+          "detalle": [
+            {
+              "producto": "Producto I",
+              "cantidad": 4,
+              "precio": 600
+            },
+            {
+              "producto": "Producto J",
+              "cantidad": 2,
+              "precio": 800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "PRV003",
+      "pais": "Panamá",
+      "nombre": "Proveedor C",
+      "direccion": {
+        "estado": "Panamá",
+        "ciudad": "Ciudad de Panamá",
+        "calle": "Avenida Balboa",
+        "numero": "789"
+      },
+      "ordenes": [
+        {
+          "numero_orden": "ORD005",
+          "fecha_creacion": "2023-03-12",
+          "fecha_llegada": "2023-03-25",
+          "transporte": "maritimo",
+          "detalle": [
+            {
+              "producto": "Producto K",
+              "cantidad": 5,
+              "precio": 1000
+            },
+            {
+              "producto": "Producto L",
+              "cantidad": 3,
+              "precio": 800
+            },
+            {
+              "producto": "Producto M",
+              "cantidad": 10,
+              "precio": 200
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD006",
+          "fecha_creacion": "2023-04-25",
+          "fecha_llegada": "2023-05-10",
+          "transporte": "terrestre",
+          "detalle": [
+            {
+              "producto": "Producto N",
+              "cantidad": 2,
+              "precio": 600
+            },
+            {
+              "producto": "Producto O",
+              "cantidad": 5,
+              "precio": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "PRV004",
+      "pais": "Brasil",
+      "nombre": "Proveedor D",
+      "direccion": {
+        "estado": "São Paulo",
+        "ciudad": "São Paulo",
+        "calle": "Avenida Paulista",
+        "numero": "1011"
+      },
+      "ordenes": [
+        {
+          "numero_orden": "ORD007",
+          "fecha_creacion": "2023-03-10",
+          "fecha_llegada": "2023-03-20",
+          "transporte": "aereo",
+          "detalle": [
+            {
+              "producto": "Producto P",
+              "cantidad": 6,
+              "precio": 1000
+            },
+            {
+              "producto": "Producto Q",
+              "cantidad": 4,
+              "precio": 1200
+            },
+            {
+              "producto": "Producto R",
+              "cantidad": 8,
+              "precio": 400
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD008",
+          "fecha_creacion": "2023-04-18",
+          "fecha_llegada": "2023-05-05",
+          "transporte": "maritimo",
+          "detalle": [
+            {
+              "producto": "Producto S",
+              "cantidad": 3,
+              "precio": 900
+            },
+            {
+              "producto": "Producto T",
+              "cantidad": 5,
+              "precio": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "PRV005",
+      "pais": "Estados Unidos",
+      "nombre": "Proveedor E",
+      "direccion": {
+        "estado": "Nueva York",
+        "ciudad": "Nueva York",
+        "calle": "Broadway",
+        "numero": "1213"
+      },
+      "ordenes": [
+        {
+          "numero_orden": "ORD009",
+          "fecha_creacion": "2023-05-08",
+          "fecha_llegada": "2023-05-18",
+          "transporte": "maritimo",
+          "detalle": [
+            {
+              "producto": "Producto U",
+              "cantidad": 8,
+              "precio": 700
+            },
+            {
+              "producto": "Producto V",
+              "cantidad": 10,
+              "precio": 400
+            },
+            {
+              "producto": "Producto W",
+              "cantidad": 5,
+              "precio": 500
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD010",
+          "fecha_creacion": "2023-03-22",
+          "fecha_llegada": "2023-04-07",
+          "transporte": "terrestre",
+          "detalle": [
+            {
+              "producto": "Producto X",
+              "cantidad": 2,
+              "precio": 1200
+            },
+            {
+              "producto": "Producto Y",
+              "cantidad": 3,
+              "precio": 400
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "PRV006",
+      "pais": "China",
+      "nombre": "Proveedor F",
+      "direccion": {
+        "estado": "Pekín",
+        "ciudad": "Pekín",
+        "calle": "Wangfujing Street",
+        "numero": "1415"
+      },
+      "ordenes": [
+        {
+          "numero_orden": "ORD011",
+          "fecha_creacion": "2023-05-15",
+          "fecha_llegada": "2023-05-25",
+          "transporte": "aereo",
+          "detalle": [
+            {
+              "producto": "Producto Z",
+              "cantidad": 6,
+              "precio": 800
+            },
+            {
+              "producto": "Producto AA",
+              "cantidad": 8,
+              "precio": 300
+            },
+            {
+              "producto": "Producto BB",
+              "cantidad": 5,
+              "precio": 400
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD012",
+          "fecha_creacion": "2023-04-30",
+          "fecha_llegada": "2023-05-10",
+          "transporte": "terrestre",
+          "detalle": [
+            {
+              "producto": "Producto CC",
+              "cantidad": 4,
+              "precio": 200
+            },
+            {
+              "producto": "Producto DD",
+              "cantidad": 2,
+              "precio": 650
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "PRV007",
+      "pais": "China",
+      "nombre": "Proveedor G",
+      "direccion": {
+        "estado": "Shanghai",
+        "ciudad": "Shanghai",
+        "calle": "Nanjing Road",
+        "numero": "888"
+      },
+      "ordenes": [
+        {
+          "numero_orden": "ORD013",
+          "fecha_creacion": "2023-02-03",
+          "fecha_llegada": "2023-02-15",
+          "transporte": "maritimo",
+          "detalle": [
+            {
+              "producto": "Producto EE",
+              "cantidad": 7,
+              "precio": 500
+            },
+            {
+              "producto": "Producto FF",
+              "cantidad": 9,
+              "precio": 400
+            },
+            {
+              "producto": "Producto GG",
+              "cantidad": 4,
+              "precio": 700
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD014",
+          "fecha_creacion": "2023-03-28",
+          "fecha_llegada": "2023-04-10",
+          "transporte": "terrestre",
+          "detalle": [
+            {
+              "producto": "Producto HH",
+              "cantidad": 3,
+              "precio": 300
+            },
+            {
+              "producto": "Producto II",
+              "cantidad": 6,
+              "precio": 500
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD015",
+          "fecha_creacion": "2023-04-28",
+          "fecha_llegada": "2023-05-10",
+          "transporte": "terrestre",
+          "detalle": [
+            {
+              "producto": "Producto HH",
+              "cantidad": 3,
+              "precio": 300
+            },
+            {
+              "producto": "Producto II",
+              "cantidad": 6,
+              "precio": 500
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD016",
+          "fecha_creacion": "2023-05-01",
+          "fecha_llegada": "2023-05-12",
+          "transporte": "terrestre",
+          "detalle": [
+            {
+              "producto": "Producto HH",
+              "cantidad": 3,
+              "precio": 300
+            },
+            {
+              "producto": "Producto II",
+              "cantidad": 6,
+              "precio": 500
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD017",
+          "fecha_creacion": "2023-05-03",
+          "fecha_llegada": "2023-05-18",
+          "transporte": "terrestre",
+          "detalle": [
+            {
+              "producto": "Producto HH",
+              "cantidad": 3,
+              "precio": 300
+            },
+            {
+              "producto": "Producto II",
+              "cantidad": 6,
+              "precio": 500
+            }
+          ]
+        },
+        {
+          "numero_orden": "ORD018",
+          "fecha_creacion": "2023-05-05",
+          "fecha_llegada": "2023-05-24",
+          "transporte": "terrestre",
+          "detalle": [
+            {
+              "producto": "Producto HH",
+              "cantidad": 3,
+              "precio": 300
+            },
+            {
+              "producto": "Producto II",
+              "cantidad": 6,
+              "precio": 500
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
