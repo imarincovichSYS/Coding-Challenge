@@ -1,0 +1,38 @@
+ // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+        public class Detalle
+        {
+            public string producto { get; set; }
+            public int cantidad { get; set; }
+            public int precio { get; set; }
+        }
+
+        public class Direccion
+        {
+            public string estado { get; set; }
+            public string ciudad { get; set; }
+            public string calle { get; set; }
+            public string numero { get; set; }
+        }
+
+        public class Ordenes
+        {
+            public string numero_orden { get; set; }
+            public DateTime fecha_creacion { get; set; }
+            public DateTime fecha_llegada { get; set; }
+            public string transporte { get; set; }
+            public List<Detalle> detalle { get; set; }
+        }
+
+        public class Proveedores
+        {
+            public string codigo { get; set; }
+            public string pais { get; set; }
+            public string nombre { get; set; }
+            public Direccion direccion { get; set; }
+            public List<Ordenes> ordenes { get; set; }
+        }
+
+        public class Root
+        {
+            public List<Proveedores> proveedores { get; set; }
+        }
