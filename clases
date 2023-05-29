@@ -1,3 +1,4 @@
+ // el archivo proveedores.json se debe dejar en la raiz del proyecto
  // using (StreamReader r = new StreamReader("proveedores.json"))
  //  {
  //      string json = r.ReadToEnd();
