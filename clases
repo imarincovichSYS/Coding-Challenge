@@ -3,6 +3,8 @@
  //  {
  //      string json = r.ReadToEnd();
  //      Root root = JsonConvert.DeserializeObject<Root>(json);
+ //      List<Proveedores> proveedores = root.proveedores;
+ //      return proveedores;
  //  }
         public class Detalle
         {
