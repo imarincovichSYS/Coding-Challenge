@@ -45,7 +45,7 @@ proveedores[
 
 ## Tu Tarea
 
-Tienes que crear tres metodos:
+Tienes que crear un controlador con tres metodos en C#:
 
     -   cantidadProveedoresPais() 
         Debes devolver un listado de la cantidad de proveedores que le compramos mercaderia por Pais.
